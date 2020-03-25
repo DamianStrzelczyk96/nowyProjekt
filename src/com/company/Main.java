@@ -6,5 +6,7 @@ public class Main {
 
     Kot kot = new Kot();
         System.out.println(kot.dajGłos());
+    Pies pies = new Pies();
+        System.out.println(pies.dajGłos());
     }
 }
