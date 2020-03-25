@@ -24,7 +24,7 @@ public class Main {
         innezwierzeta.add(lew1);
         innezwierzeta.add(losos1);
         innezwierzeta.add(slon1);
-        innezwierzeta.stream().forEach(Lapy::iloscLap);
+        innezwierzeta.stream().forEach(Lapy-> System.out.println(Lapy.iloscLap()));
 
 
     }
