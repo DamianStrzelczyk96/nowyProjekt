@@ -19,4 +19,10 @@ public class Pies extends Zwierzaki {
         super.zmianaLapy(lapy);
         this.lapy = lapy;
     }
+    @Override
+    public String toString() {
+        return "Pies posiada: " +
+                lapy+" lapy i krzyczy: " + dajGłos()
+                ;
+    }
 }

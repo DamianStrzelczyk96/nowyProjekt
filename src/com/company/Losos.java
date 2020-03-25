@@ -10,11 +10,17 @@ public class Losos extends Zwierzaki {
 
     @Override
     public String dajGłos() {
-        return null;
+        return "bulbul";
     }
     @Override
     public void zmianaLapy(Integer lapy) {
         super.zmianaLapy(lapy);
         this.lapy = lapy;
+    }
+    @Override
+    public String toString() {
+        return "Losos posiada: " +
+                lapy+" lapy i krzyczy: " + dajGłos()
+                ;
     }
 }

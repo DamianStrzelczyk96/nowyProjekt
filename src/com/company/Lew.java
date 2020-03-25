@@ -10,12 +10,19 @@ int lapy = 4;
 
     @Override
     public String dajGłos() {
-        return null;
+        return "WRAAA";
     }
 
     @Override
     public void zmianaLapy(Integer lapy) {
         super.zmianaLapy(lapy);
         this.lapy = lapy;
+    }
+
+    @Override
+    public String toString() {
+        return "Lew posiada: " +
+                lapy+" lapy i krzyczy: " + dajGłos()
+                ;
     }
 }

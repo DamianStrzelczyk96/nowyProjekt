@@ -35,10 +35,12 @@ public class Main {
         wszystko.add(kot);
         wszystko.add(pies);
 
-        wszystko.stream().forEach(Zwierzeta-> System.out.print(Zwierzeta.iloscLap()));
-        System.out.println("po modyfikacji");
+        wszystko.stream().forEach(Zwierzeta-> System.out.println(Zwierzeta));
+        System.out.println("PO MODYFIKACJI");
         lew1.zmianaLapy(9);
-        wszystko.stream().forEach(Zwierzeta-> System.out.print(Zwierzeta.iloscLap()));
+        kot.zmianaLapy(8);
+        wszystko.stream().forEach(Zwierzeta-> System.out.println(Zwierzeta + " "));
+
 
     }
 }

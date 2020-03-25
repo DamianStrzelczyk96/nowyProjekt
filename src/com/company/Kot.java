@@ -18,4 +18,10 @@ int lapy =4;
         super.zmianaLapy(lapy);
         this.lapy = lapy;
     }
+    @Override
+    public String toString() {
+        return "Kot posiada: " +
+                lapy+" lapy i krzyczy: " + dajGłos()
+                ;
+    }
 }

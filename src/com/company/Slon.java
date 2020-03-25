@@ -18,4 +18,10 @@ int lapy = 4;
         this.lapy = lapy;
 
     }
+    @Override
+    public String toString() {
+        return "Slon posiada: " +
+                lapy+" lapy i krzyczy: " + dajGłos()
+                ;
+    }
 }
